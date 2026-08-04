@@ -1,0 +1,36 @@
+name: CryptoOS
+options:
+  bundleIdPrefix: com.djsly
+  deploymentTarget:
+    iOS: "26.0"
+  xcodeVersion: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    DEVELOPMENT_TEAM: QGMAWHX827
+    MARKETING_VERSION: 1.0.1
+    CURRENT_PROJECT_VERSION: 1
+targets:
+  CryptoOS:
+    type: application
+    platform: iOS
+    sources:
+      - CryptoOS
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.djsly.cryptoos
+      CODE_SIGN_STYLE: Automatic
+      TARGETED_DEVICE_FAMILY: 1
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      SUPPORTS_XR_DESIGNED_FOR: NO
+    info:
+      path: CryptoOS/Resources/Info.plist
+      properties:
+        CFBundleName: CryptoOS
+        CFBundleDisplayName: cryptoOS
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen: {}
+        UIUserInterfaceStyle: Dark
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
