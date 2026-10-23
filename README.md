@@ -1,5 +1,7 @@
 # cryptoOS
 
+**Install:** open [assiamahs.github.io/cryptoOS/install.html](https://assiamahs.github.io/cryptoOS/install.html) in Safari on your iPhone.
+
 Coinbase-style crypto tracker for iPhone.
 
 - **Holdings** — local portfolio (nothing leaves the phone), live-priced total balance with 24h change
